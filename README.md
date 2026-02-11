@@ -7,33 +7,33 @@ Command-line tool for publishing and managing ML models on [ModelPark](https://m
 ### Quick Install (Linux / macOS)
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/modelpark/cli/master/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/model-park cli/master/install.sh | sh
 ```
 
 ### Debian / Ubuntu
 
-Download the `.deb` package from the [latest release](https://github.com/modelpark/cli/releases/latest):
+Download the `.deb` package from the [latest release](https://github.com/model-park cli/releases/latest):
 
 ```bash
 # amd64
-curl -fsSLO https://github.com/modelpark/cli/releases/latest/download/modelpark_amd64.deb
+curl -fsSLO https://github.com/model-park cli/releases/latest/download/modelpark_amd64.deb
 sudo dpkg -i modelpark_amd64.deb
 
 # arm64
-curl -fsSLO https://github.com/modelpark/cli/releases/latest/download/modelpark_arm64.deb
+curl -fsSLO https://github.com/model-park cli/releases/latest/download/modelpark_arm64.deb
 sudo dpkg -i modelpark_arm64.deb
 ```
 
 ### RHEL / Fedora
 
 ```bash
-curl -fsSLO https://github.com/modelpark/cli/releases/latest/download/modelpark_amd64.rpm
+curl -fsSLO https://github.com/model-park cli/releases/latest/download/modelpark_amd64.rpm
 sudo rpm -i modelpark_amd64.rpm
 ```
 
 ### Manual Download
 
-Download the archive for your platform from the [releases page](https://github.com/modelpark/cli/releases/latest), extract it, and place the `modelpark` binary in your `PATH`.
+Download the archive for your platform from the [releases page](https://github.com/model-park cli/releases/latest), extract it, and place the `modelpark` binary in your `PATH`.
 
 | Platform | Archive |
 |----------|---------|
