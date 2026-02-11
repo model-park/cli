@@ -2,9 +2,9 @@
 set -e
 
 # ModelPark CLI installer
-# Usage: curl -fsSL https://raw.githubusercontent.com/modelpark/cli/master/install.sh | sh
+# Usage: curl -fsSL https://raw.githubusercontent.com/model-park/cli/master/install.sh | sh
 
-REPO="modelpark/cli"
+REPO="model-park/cli"
 BINARY_NAME="modelpark"
 
 # Detect OS
